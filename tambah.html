@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        .container {
+            border: 1px solid;
+            margin: auto;
+            width: 590px;
+            height: 790px;
+            border-radius: 20px;
+            background-color: rgb(254, 238, 195);
+        }
+
+        .div {
+            border: 1px solid;
+            width: 450px;
+            height: 640px;
+            margin: auto;
+            margin-bottom: 70px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: bisque;
+        }
+
+        .button {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .btn {
+            width: 70px;
+            height: 25px;
+            font-size: 14px;
+        }
+        .back{
+            color: black;
+            margin-left: 5px;
+        }
+       
+        .nl {
+            margin-top: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .nl input{
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>TAMBAH BARANG</h1>
+        <div class="div">
+            <div class="nl">
+                <label for="name" class="name-label">Nama Barang</label>
+                <input type="text" id="name" Name="Nama">
+            </div>
+            <div class="nl">
+                <label for="code" class="code-label">Kode Barang</label>
+                <input type="text" id="code" code="Kode">
+            </div>
+            <div class="nl">
+                <label for="TM" class="TM-label">Tanggal Masuk</label>
+                <input type="date" id="TM" TM="Tanggal Masuk">
+            </div>
+            <div class="nl">
+                <label for="TE" class="TE-label">Tanggal Expired</label>
+                <input type="date" id="TE" TM="Tanggal Expired">
+            </div>
+            <div class="nl">
+                <label for="JS" class="JS-label">Jumlah Stock</label>
+                <input type="text" id="JS" JS="Jumlah Stock">
+            </div>
+            <div class="nl">
+                <label for="HB" class="HB-label">Harga Beli</label>
+                <input type="text" id="HB" HB="Harga Beli">
+            </div>
+            <div class="nl">
+                <label for="HJ" class="HJ-label">Harga Jual</label>
+                <input type="text" id="HJ" HJ="Harga Jual">
+            </div>
+            <div class="button">
+                <button class="btn">Simpan</button>
+                <a href="index.html" class="back">Kembali</a>
+            </div>
+            <div class="back">
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
